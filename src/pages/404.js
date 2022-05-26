@@ -53,6 +53,7 @@ Oops, you did it again!          </p>
           </form>
         </div>
       </Main>
+  const mainBanner = {
     sourceUrl: '/static/dog.jpeg',
     mediaDetails: { width: 1200, height: 600 },
     altText: 'Blog Banner',
