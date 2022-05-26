@@ -28,7 +28,7 @@ export default function Page() {
     },
   });
   const mainBanner = {
-    sourceUrl: '/static/banner.jpeg',
+    sourceUrl: '/static/header.jpeg',
     mediaDetails: { width: 1200, height: 600 },
     altText: 'Blog Banner',
   };
@@ -47,7 +47,7 @@ export default function Page() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to your mind
+              Welcome to your mind!
             </Heading>
             <p className={styles.description}>
               Please keep your hands and feet inside the barrier at all times.{' '}
@@ -89,8 +89,7 @@ export default function Page() {
               )}
             >
               <span>
-                Learn about Core Web Vitals and how Atlas can help you reach
-                your most demanding speed and user experience requirements.
+		Get ready for some fun!
               </span>
             </CTA>
           </section>
