@@ -28,7 +28,7 @@ export default function Page() {
     },
   });
   const mainBanner = {
-    sourceUrl: '/static/banner.jpeg',
+    sourceUrl: '/static/header.jpeg',
     mediaDetails: { width: 1200, height: 600 },
     altText: 'Blog Banner',
   };
