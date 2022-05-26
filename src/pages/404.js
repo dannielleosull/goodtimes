@@ -19,7 +19,7 @@ export default function Page() {
       <Header />
 
       <Main>
-        <EntryHeader title="Not found, error 404" />
+        <EntryHeader title="Wrong turn. Do a U-ee!" />
         <div className="container small">
           <p className="text-center">
 Oops, you did it again!          </p>
@@ -53,6 +53,10 @@ Oops, you did it again!          </p>
           </form>
         </div>
       </Main>
+    sourceUrl: '/static/dog.jpeg',
+    mediaDetails: { width: 1200, height: 600 },
+    altText: 'Blog Banner',
+  };
 
       <Footer />
     </>
